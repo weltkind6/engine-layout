@@ -8,6 +8,15 @@
   border: none;
 }
 
+button {
+  background: rgb(219, 37, 18);
+  padding: 12px 48px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
 a {
   text-decoration: none;
   font-weight: 600;
@@ -28,6 +37,9 @@ a {
 
 .section {
   background-image: url("./img/road-g9875459d1_1920\ 1.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom 60px;
 }
 
 .header {
@@ -62,6 +74,7 @@ li > a {
   text-transform: uppercase;
   color: #fff;
   font-weight: 600;
+  cursor: pointer;
 }
 
 .header__lang > span:first-child {
@@ -83,4 +96,5 @@ li > a {
   color: #fff;
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 50px;
 }
