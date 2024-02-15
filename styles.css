@@ -35,18 +35,15 @@ a {
   margin: 0 auto;
 }
 
-.section {
-  background-image: url("./img/road-g9875459d1_1920\ 1.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom 60px;
-}
 
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 22px 0 14px 0;
+  position: absolute;
+  top: 0;
+  left: 18%;
 }
 
 .header__nav {
@@ -84,7 +81,11 @@ li > a {
 /* Intro */
 
 .intro {
-  padding: 117px 0 305px 0;
+  padding: 225px 0 305px 0;
+  background-image: url('./img/road-g9875459d1_1920\ 1.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .intro__wrapper {
@@ -92,9 +93,9 @@ li > a {
   height: 125px;
 }
 
-.intro__wrapper > h1 {
+.intro h1 {
   color: #fff;
   font-size: 48px;
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 53px;
 }
