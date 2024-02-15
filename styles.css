@@ -1,0 +1,86 @@
+* {
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 1680px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  background-image: url("./img/road-g9875459d1_1920\ 1.jpeg");
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0 14px 0;
+}
+
+.header__nav {
+  display: flex;
+}
+
+.header__nav > li {
+  margin-right: 35px;
+  list-style: none;
+}
+
+.header__nav > li:last-child {
+  margin-right: 0;
+}
+
+.header__nav_active {
+  border-bottom: 2px solid #fff;
+}
+
+li > a {
+  text-transform: uppercase;
+}
+
+.header__lang > span {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+
+.header__lang > span:first-child {
+  color: rgb(183, 183, 183);
+}
+
+/* Intro */
+
+.intro {
+  padding: 117px 0 305px 0;
+}
+
+.intro__wrapper {
+  width: 791px;
+  height: 125px;
+}
+
+.intro__wrapper > h1 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 700;
+}
