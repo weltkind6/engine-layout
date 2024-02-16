@@ -41,9 +41,6 @@ a {
   justify-content: space-between;
   align-items: center;
   padding: 22px 0 14px 0;
-  position: absolute;
-  top: 0;
-  left: 18%;
 }
 
 .header__nav {
@@ -80,9 +77,12 @@ li > a {
 
 /* Intro */
 
+.test {
+  background-image: url('./img/road-g9875459d1_1920\ 1.jpeg');
+}
+
 .intro {
   padding: 225px 0 305px 0;
-  background-image: url('./img/road-g9875459d1_1920\ 1.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
