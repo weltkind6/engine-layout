@@ -223,6 +223,7 @@ h4 {
   color: #fff;
   font-size: 30px;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 .aboutus__wrpapper_content {
@@ -257,10 +258,6 @@ h4 {
 
 /* Work process */
 
-.process {
-}
-.process__title {
-}
 
 .process__title > h5 {
   font-size: 148px;
@@ -319,4 +316,47 @@ h4 {
 
 .footer__wrapper > div:first-child {
    color: #000;
+}
+
+/* Contact us */
+
+.contactus {
+  background: #000;
+}
+
+.contactus_wrapper {
+  padding: 97px 0 97px;
+}
+
+h6 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+input {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  outline: none;
+  background: #000;
+  min-width: 197px;
+}
+
+.contactus_wrapper > input {
+  width: 440px;
+  margin: 55px 0 47px;
+}
+
+.input-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto); 
+  width: 440px;
+  gap: 50px;
+}
+
+.contactus__btn {
+  padding: 11px 75px;
 }
