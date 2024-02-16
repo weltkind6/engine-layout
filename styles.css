@@ -308,3 +308,15 @@ h4 {
   font-size: 18px;
   font-weight: 400;
 }
+
+/* Footer */
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 66px 0 61px;
+}
+
+.footer__wrapper > div:first-child {
+   color: #000;
+}
