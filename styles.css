@@ -7,6 +7,7 @@
   padding: 0;
   border: none;
   max-width: 100%;
+  letter-spacing: 1px;
 }
 
 button {
@@ -98,6 +99,7 @@ li > a {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 53px;
+  letter-spacing: 0;
 }
 
 .cards {
@@ -175,20 +177,6 @@ li > a {
   cursor: pointer;
 }
 
-.services__cards_item:hover .overlay  {
-    display: block;
-}
-
-.services__cards_item > img {
-  max-height: 500px;
-}
-
-.services__cards_item > div {
-  margin-top: 10px;
-  font-size: 20px;
-  font-weight: 600;
-}
-
 .overlay {
   display: none;
   position: absolute;
@@ -201,6 +189,69 @@ li > a {
 .overlay > p {
   color: #fff;
   font-size: 18px;
-  font-weight: 600; 
+  font-weight: 600;
   padding: 360px 88px 32px 29px;
 }
+
+.services__cards_item:hover .overlay {
+  display: block;
+}
+
+.services__cards_item > img {
+  max-height: 500px;
+}
+
+.services__cards_item > div {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* About us */
+
+.aboutus {
+  background: rgb(23, 22, 22);
+  width: 100%;
+}
+
+.aboutus__wrapper {
+  display: flex;
+  padding: 117px 0 116px;
+}
+
+h4 {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.aboutus__wrpapper_content {
+  width: 506px;
+  height: 432px;
+}
+
+.aboutus__wrpapper_content > p {
+  color: rgb(183, 183, 183);
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 48px 0 42px;
+}
+
+.aboutus__wrpapper_content > a {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+  text-decoration-line: underline;
+}
+
+.aboutus__wrpapper_content > a:hover {
+   color: rgb(219, 37, 18);
+   transition: .3s ease-in-out;
+}
+
+.aboutus-img {
+  margin-top: 36px;
+  margin-left: 198px;
+}
+
