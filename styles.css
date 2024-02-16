@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   border: none;
+  max-width: 100%;
 }
 
 button {
@@ -34,7 +35,6 @@ a {
   width: 100%;
   margin: 0 auto;
 }
-
 
 .header {
   display: flex;
@@ -78,7 +78,7 @@ li > a {
 /* Intro */
 
 .test {
-  background-image: url('./img/road-g9875459d1_1920\ 1.jpeg');
+  background-image: url("./img/road-g9875459d1_1920\ 1.jpeg");
 }
 
 .intro {
@@ -103,7 +103,7 @@ li > a {
 .cards {
   display: flex;
   position: relative;
-  bottom: 95px 
+  bottom: 95px;
 }
 
 .cards__item {
@@ -134,4 +134,73 @@ li > a {
   text-transform: capitalize;
   font-size: 18px;
   font-weight: 400;
+}
+
+/* Services */
+
+.services {
+  text-transform: uppercase;
+  margin-bottom: 100px;
+}
+
+.services > h2 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.services__subtitle {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 15px 0 60px;
+}
+
+.services__cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.services__cards_item {
+  position: relative;
+  width: 387px;
+  height: 551px;
+}
+
+.services__cards_item:hover::before {
+  content: url(./img/plus.png);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  cursor: pointer;
+}
+
+.services__cards_item:hover .overlay  {
+    display: block;
+}
+
+.services__cards_item > img {
+  max-height: 500px;
+}
+
+.services__cards_item > div {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.overlay {
+  display: none;
+  position: absolute;
+  top: -2%;
+  width: 100%;
+  height: 91%;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.overlay > p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600; 
+  padding: 360px 88px 32px 29px;
 }
